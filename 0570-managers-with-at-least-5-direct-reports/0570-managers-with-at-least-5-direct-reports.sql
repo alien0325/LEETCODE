@@ -8,6 +8,6 @@ FROM (
     LEFT JOIN Employee AS e2
     ON e1.id = e2.managerId
     WHERE e2.id IS NOT NULL
-    GROUP BY e1.id, e1.name
+    GROUP BY e1.name, e1.id
 )t
 WHERE cnt >= 5
