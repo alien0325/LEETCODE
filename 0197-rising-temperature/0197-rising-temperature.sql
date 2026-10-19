@@ -1,5 +1,5 @@
 /* Write your T-SQL query statement below */
-SELECT
+SELECT 
 today.id
 FROM Weather today
 JOIN Weather yesterday
